@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 from dotenv import load_dotenv
 
 
-from core_engine import Intent
+from intent_model import Intent
 from risk_engine import calculate_risk
 from validator import validate_intent
 from logger import log_event
